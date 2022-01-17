@@ -1,0 +1,82 @@
+.container {
+  margin-top: 5rem;
+  padding: 3rem;
+  border-radius: 4px;
+}
+.success-msg {
+    color: #4FB61E;
+    background: #8fffab;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+.container h1 {
+    font-size: 30px;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: bold;
+    line-height: 35px;
+  }
+
+  label,
+  input {
+    color: #293241;
+  }
+
+  label {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+
+  input {
+    border: 2px solid #CECACE;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+  }
+  input :active {
+    border: 2px solid #4FB61E;
+  }
+
+  .form-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+  }
+
+  button {
+    color: #fff;
+    width: 100%;
+    background: #4FB61E;
+    border-radius: 8px;
+    border: none;
+    padding: 0.4rem 1.2rem;
+    margin-top: 0.5rem;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    font-weight: bold;
+    padding: 16px 0;
+} 
+
+  .input-error {
+    border-color: #e63946;
+  }
+  
+  .error {
+    color: #e63946;
+    font-size: 1rem;
+    margin-top: 0.3rem;
+  }
+
+  .disabled-btn {
+    cursor: not-allowed;
+    background: rgba(#4FB61E, 0.8);
+  }
